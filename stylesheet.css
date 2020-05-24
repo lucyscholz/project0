@@ -11,7 +11,7 @@ h1 {
 }
 
 .paragraph {
-    margin: 20px;
+    margin: 30px;
 }
 
 #footer {
@@ -21,4 +21,36 @@ h1 {
     width: 97%;
     height: 2.5rem;
     text-align: center;
+}
+
+a:link {
+    color:black;
+    font-weight: bold;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+.zoom {
+    padding: 20px
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25)
+}
+
+.emphasize {
+    font-weight: bolder;
 }

@@ -1,101 +1,106 @@
+@media print {
+  body {
+    color: black;
+  }
+}
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-    margin: 20px;
-    margin-bottom: 60px; /* Margin bottom by footer height */
-}
-h1 {
-    color:dimgray;
+  margin: 20px;
+  margin-bottom: 60px;
+  /* Margin bottom by footer height */
 }
 
 .navbar-brand {
-    font-weight: bolder;
-    font-family: sans-serif;   
-}
-
-.paragraph {
-    margin: 30px;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 
 .footer {
-    text-align:center;
-    position: absolute;
-    padding: 20px;
-    bottom: 0;
-    height: 60px; /* Set the fixed height of the footer here */
-    background-color: #f5f5f5;
+  text-align: center;
+  position: absolute;
+  padding: 20px;
+  bottom: 0;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  background-color: #f5f5f5;
 }
 
-a:link {
-    color:navy;
-    font-weight: bold;
+h1 {
+  color: dimgray;
 }
 
-a:visited {
-    color:navy;
+.paragraph {
+  margin: 30px;
+}
+
+a:link, a:visited {
+  color: navy;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
-    color: grey;
-    text-decoration: none;
+  color: grey;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 #contact {
-    text-align: center;
-    align-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .zoom {
-    padding: 20px
+  padding: 20px;
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.25);
-    -webkit-transform: scale(1.25);
-    transform: scale(1.25)
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .emphasize {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .card {
-    content:"";
-    display:table;
-    clear:both;
-    padding:0.4em 16px;
-    margin-top:16px;
-    margin-bottom:16px;
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0.4em 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 table {
-    border: 1px;
-    border-collapse: collapse;
-    width=100%;
+  border: 1px;
+  border-collapse: collapse;
 }
 
 table a:link, table a:visited, table a:active {
-    font-weight:lighter    
+  font-weight: lighter;
 }
 
 table a:hover {
-    font-weight:bold
-}
-
-th {
-    background: grey;
-    color: white;
+  font-weight: bold;
 }
 
 td, th {
-    text-align: center;
-    padding: 5px;
-    border: 1px solid grey;
-    width: 25%;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid grey;
+  width: 25%;
 }
 
+th {
+  background: grey;
+  color: white;
+}
 
+/*# sourceMappingURL=stylesheet.css.map */
